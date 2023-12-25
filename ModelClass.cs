@@ -62,7 +62,7 @@ namespace RGR_Shevchuk
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseNpgsql(
-                "Host=localhost;Port=5432;Database=Hospital;Username=postgres;Password=011427223");
+                "Host=localhost;Port=5432;Database=Systems for tracking patients' health;Username=postgres;Password=12345");
         }
     }
     class ModelClass
